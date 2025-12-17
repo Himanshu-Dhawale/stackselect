@@ -16,13 +16,14 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <Hero />
+        {/* <Hero />
         <SocialProof />
         <HowItWorks />
         <Features />
         <Testimonials />
         <Pricing />
-        <FAQ />
+        <FAQ /> */}
+        <h1 className="">Hello</h1>
       </main>
       <Footer />
     </>

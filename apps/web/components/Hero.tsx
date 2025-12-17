@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Hero() {
     return (
         <section style={{
@@ -60,9 +62,9 @@ export default function Hero() {
                     </p>
 
                     <div className="flex-center" style={{ gap: '1rem' }}>
-                        <button className="btn btn-primary" style={{ padding: '0.75rem 2rem', fontSize: '1.125rem' }}>
+                        <Link href="/onboarding" className="btn btn-primary" style={{ padding: '0.75rem 2rem', fontSize: '1.125rem' }}>
                             Get Started Free →
-                        </button>
+                        </Link>
                         <button className="btn btn-secondary" style={{ padding: '0.75rem 2rem', fontSize: '1.125rem' }}>
                             View Demo
                         </button>
