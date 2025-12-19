@@ -7,6 +7,9 @@ import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
+import { Button } from "@/components/ui/button";
+import OnboardingPage from "./onboarding/page";
+import Recommendations from "./recommendations/page";
 
 // We won't use the module css, we use globals and inline structure
 // import styles from "./page.module.css"; 
@@ -14,7 +17,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main>
         {/* <Hero />
         <SocialProof />
@@ -23,9 +26,11 @@ export default function Home() {
         <Testimonials />
         <Pricing />
         <FAQ /> */}
-        <h1 className="">Hello</h1>
+        {/* <Button className="bg-blue-500 mt-4 ml-10">Click Me</Button> */}
+        {/* <OnboardingPage/> */}
+        <Recommendations/>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
